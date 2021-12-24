@@ -2,7 +2,6 @@
 
 This is the instruction for **Road Following by Regression** exmaple in NCKU-NITKC AI Robotics Lab. 
 
-YouTube : 
 
 ## Setup
 1. Log in to your JetBot from a web browser.
@@ -23,11 +22,9 @@ YouTube :
 1. Download `dataset_reg.zip` to your local PC.
 
 ## Model Training
-1. Open `train_model.ipynb` in Google Colab. There are two options.
-    - **Option 1** Download `train_model.ipynb` from `road_following_by_regression` directory to your local PC. Then upload it to your Google Drive.
-    - **Option 2** Open [train_model.ipynb in Google Colab](https://colab.research.google.com/github/naoya1110/road_following_by_regression/blob/main/train_model.ipynb)
+1. Open `train_model.ipynb` in Google Colab from [here](https://colab.research.google.com/github/naoya1110/road_following_by_regression/blob/main/train_model.ipynb)
 1. Upload `dataset_reg.zip` by using the file browser in Google Colab.
-1. Train a model with Google Colab by following instructions in the notebook.
+1. Train a model by following instructions in the notebook.
 1. Download `best_model_reg.pth` to your local PC
 
 ## Live Demo
