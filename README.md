@@ -22,7 +22,7 @@ This is the instruction for **Road Following by Regression** exmaple in NCKU-NIT
 1. Download `dataset_reg.zip` to your local PC.
 
 ## Model Training
-1. Open `train_model.ipynb` in Google Colab from [here](https://colab.research.google.com/github/naoya1110/road_following_by_regression/blob/main/train_model.ipynb)
+1. Open `train_model_resnet18.ipynb` in Google Colab from [here](https://colab.research.google.com/github/naoya1110/road_following_by_regression/blob/main/train_model_resnet18.ipynb)
 1. Upload `dataset_reg.zip` by using the file browser in Google Colab.
 1. Train a model by following instructions in the notebook.
 1. Download `best_model_reg.pth` to your local PC
