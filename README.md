@@ -28,12 +28,10 @@ This is the instruction for **Road Following by Regression** exmaple in NCKU-NIT
 1. Download `best_model_reg_resnet18.pth` to your local PC
 
 ## Build TensorRT Model
-1. Open `train_model_resnet18.ipynb` in Google Colab from [here](https://colab.research.google.com/github/naoya1110/road_following_by_regression/blob/main/train_model_resnet18.ipynb)
-1. Upload `dataset_reg.zip` by using the file browser in Google Colab.
-1. Train a model by following instructions in the notebook.
-1. Download `best_model_reg_resnet18.pth` to your local PC
+1. Open `build_resnet18_trt.ipynb`
+1. Upload `best_model_reg_resnet18.pth` to `workspace/jetbot/notebooks/road_following_by_regression` directory in your JetBot
+1. Build a TensorRT model `best_model_reg_resnet18_trt.pth` by following instructions in the notebook.
 
 ## Live Demo
-1. Open `live_demo.ipynb`
-1. Upload `best_model_reg.pth` to `workspace/jetbot/notebooks/road_following_by_regression` directory in your JetBot
-1. Run your JetBot with the trained model by following the instructions in the notebook.
+1. Open `live_demo_resnet18_trt.ipynb`
+1. Run your JetBot with the TensorRT model `best_model_reg_resnet18_trt.pth` by following the instructions in the notebook.
