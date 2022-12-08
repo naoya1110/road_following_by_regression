@@ -8,11 +8,11 @@ This is the instruction for **Road Following by Regression** exmaple in NCKU-NIT
 1. Open a terminal. Your current working directory must be `workspace` now. 
 1. Then navigate to `workspace/jetbot/notebooks` directory.
     ```
-    $ cd jetbot/notebooks
+    cd jetbot/notebooks
     ```
 1. Clone this repository.
     ```
-    $ git clone https://github.com/naoya1110/road_following_by_regression.git
+    git clone https://github.com/naoya1110/road_following_by_regression.git
     ```
 
 ## Data Collection
