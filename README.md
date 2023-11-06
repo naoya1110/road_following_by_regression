@@ -5,8 +5,11 @@ This is the instruction for **Road Following by Regression** exmaple in NCKU-NIT
 
 ## Setup
 1. Log in to your JetBot from a web browser.
-1. Open a terminal. Your current working directory must be `workspace` now. 
-1. Then navigate to `workspace/jetbot/notebooks` directory.
+1. Open a terminal and log in via ssh.
+    ```
+    ssh jetbot@0.0.0.0
+    ```
+1.  Navigate to `workspace/jetbot/notebooks` directory.
     ```
     cd jetbot/notebooks
     ```
